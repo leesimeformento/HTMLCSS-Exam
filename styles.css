@@ -1,0 +1,154 @@
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+
+/* Nav Starts here */
+
+.nav {
+    background: rgb(4, 41, 78);
+    ;
+}
+
+.big-wrapper {
+    background: white;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    padding:40px;
+
+}
+.nav h1 {
+    color: white;
+    width:40%;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    width:60%;
+}
+
+.nav li{
+    display: flex;
+    justify-content: space-around;    
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding:10px 10px 10px 50px;
+}
+
+#james {
+    color: hsl(221, 64%, 65%);
+}
+
+#home {
+    color:rgb(51, 116, 168);
+    font-weight: 100;
+}
+
+.container  {
+    width:100%;
+    margin:0 auto;
+}
+
+.mainphoto {
+width: 100%;
+border:20px solid white;
+}
+
+.subcontent img {
+    width:50px;
+}
+
+.subcontent{
+    display: flex;
+    justify-content: space-evenly;
+    color:white;
+    width:100%;
+    height:30vh;
+}
+
+.box1 {
+    width:31.5%;
+    background: rgb(85, 85, 150);
+    display: flex;
+    flex-direction: column; 
+    justify-content:space-around;
+    padding:20px;
+}
+
+.image-wrapper {
+display: flex;
+}
+
+.image-wrapper h2 {
+    padding:10px;
+}
+
+#info{
+    width:170px;
+    padding:20px;
+    border-radius: 12px;
+}
+
+.sub-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border:18px solid white;
+}
+
+.world1 {
+    flex: 1;
+    font-size: 25px;
+}
+
+.world {
+    flex: 2;
+    font-size: 25px;
+}
+
+.bottomcontainer {
+    border: 2px solid red;
+    display: flex;
+    border:10px solid white;
+    justify-content: space-between;
+}
+
+.about1{
+    width:30%;
+}
+
+.about1 img {
+    width:350px;
+}
+
+.about2{    
+width:30%;
+text-align: left;
+}
+
+.about3 {
+    width:30%;
+
+}
+
+.para {
+    padding: 5px;
+}
+
+#learn {
+    text-decoration: none;
+    border:2px solid red;
+}
+
+
+
+
