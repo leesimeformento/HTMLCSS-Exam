@@ -92,7 +92,7 @@ display: flex;
     padding:10px;
 }
 
-#info{
+.info{
     width:170px;
     padding:20px;
     border-radius: 12px;
